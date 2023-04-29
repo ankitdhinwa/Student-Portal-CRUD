@@ -1,0 +1,18 @@
+{{> header }}
+<h2 class="text-xl text-center mt-5"> Insert Student </h2>
+<form action="/insert" method="post" class="flex flex-col gap-y-5 justify-center items-center w-full mt-5">
+    <input type="text" name="name" class="w-1/3 border p-2 rounded-md outline-none" placeholder="Enter student name"
+        autocomplete="off" />
+            <input type="number" name="age" class="w-1/3 border p-2 rounded-md outline-none" placeholder="Enter student age"
+                autocomplete="off" />
+                    <input type="text" name="roll" class="w-1/3 border p-2 rounded-md outline-none" placeholder="Enter student roll number"
+                        autocomplete="off" />
+                                <input type="text" name="dept" class="w-1/3 border p-2 rounded-md outline-none" placeholder="Enter student dept"
+                                    autocomplete="off" />
+                                            <input type="text" name="father" class="w-1/3 border p-2 rounded-md outline-none" placeholder="Enter student father name"
+                                                autocomplete="off" />
+                                                        <input type="text" name="mother" class="w-1/3 border p-2 rounded-md outline-none" placeholder="Enter student mother name"
+                                                            autocomplete="off" />
+    <input type="submit" value="Insert Student" class="bg-[#246A73]  hover:bg-[#368F8B] font-bold  text-white p-3 rounded-md cursor-pointer" />
+</form>
+{{> footer}}
